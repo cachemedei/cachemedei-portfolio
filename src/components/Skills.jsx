@@ -8,19 +8,14 @@ const Skills = () => {
         skillsList:
             'grid grid-cols-2 sm:grid-cols-3 gap-8 md:gap-16 mt-8 mx-auto',
         skillCard:
-            'flex flex-col justify-center items-center gap-2 py-4 shadow-md shadow-gray-600 rounded hover:scale-110 hover:shadow-text duration-500',
+            'flex flex-col justify-center items-center gap-2 py-4 shadow-md shadow-gray-600 rounded hover:scale-110 hover:shadow-text duration-500 bg-text/60',
         skillIcon: 'w-[60px] sm:w-[75px] lg:w-[120px]',
     };
     return (
-        <main
-            name='skills'
-            className={styles.main}
-        >
+        <main name='skills' className={styles.main}>
             {/* Container */}
             <section className={styles.container}>
-                <h1 className={styles.heading}>
-                    Skills
-                </h1>
+                <h1 className={styles.heading}>Skills</h1>
                 <p className={styles.text}>
                     Here are a few of the technologies that I have worked with.
                 </p>
@@ -29,7 +24,7 @@ const Skills = () => {
                         <img
                             className={styles.skillIcon}
                             src='src/images/javascript.svg'
-                            alt=''
+                            alt='A bold, black line drawing of a page with the top left corner folded inward with the letters JS in the center'
                         />
                         <span className='font-light'>JavaScript</span>
                     </li>
@@ -37,7 +32,7 @@ const Skills = () => {
                         <img
                             className={styles.skillIcon}
                             src='src/images/react.png'
-                            alt=''
+                            alt='A black square with a picture of an atom in the center'
                         />
                         <span className='font-light'>React</span>
                     </li>
@@ -45,7 +40,7 @@ const Skills = () => {
                         <img
                             className={styles.skillIcon}
                             src='src/images/python.svg'
-                            alt=''
+                            alt='Two black interlocking snake-like shapes'
                         />
                         <span className='font-light'>Python</span>
                     </li>
@@ -53,7 +48,7 @@ const Skills = () => {
                         <img
                             className={styles.skillIcon}
                             src='src/images/tailwind.svg'
-                            alt=''
+                            alt='Two black, simple wave-like shapes stacked vertically'
                         />
                         <span className='font-light'>TailwindCSS</span>
                     </li>
@@ -61,7 +56,7 @@ const Skills = () => {
                         <img
                             className={styles.skillIcon}
                             src='src/images/html.svg'
-                            alt=''
+                            alt='A bold, black line drawing of a page with the top left corner folded inward with the letters HTML in the center'
                         />
                         <span className='font-light'>HTML</span>
                     </li>
@@ -69,7 +64,7 @@ const Skills = () => {
                         <img
                             className={styles.skillIcon}
                             src='src/images/css.svg'
-                            alt=''
+                            alt='A bold, black line drawing of a page with the top left corner folded inward with the letters CSS in the center'
                         />
                         <span className='font-light'>CSS</span>
                     </li>

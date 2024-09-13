@@ -7,8 +7,8 @@ const styles = {
     nav: 'fixed w-full h-[80px] flex justify-between items-center px-4 text-base-mid bg-text/70',
     logo: 'w-[80px] mt-2 md:w-[100px] md:mt-4 mb-2',
     desktopMenu: 'hidden md:flex text-xl',
-    desktopMenuItem: 'hover:scale-125 duration-500',
-    mobileMenuItem: 'py-6 text-3xl font-light hover:scale-125 duration-500',
+    desktopMenuItem: 'hover:scale-110 duration-500',
+    mobileMenuItem: 'py-6 text-3xl font-light hover:scale-125 duration-500 border-b-2 w-[220px] text-center hover:w-[180px]',
     socials:
         'w-[150px] h-[60px] flex justify-between items-center bg-secondary text-lg md:text-2xl md:w-[180px] ml-[-90px] md:ml-[-115px] hover:ml-[-5px] duration-300',
     socialIcon: 'flex justify-between w-full items-center',

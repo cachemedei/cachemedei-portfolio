@@ -23,16 +23,21 @@ const Projects = () => {
 
                 {/* Cards Container */}
                 <section className='grid grid-cols-1 lg:grid-cols-2 gap-2 w-full '>
+                    {/* Pickster App */}
                     <article className={styles.card}>
                         <h2 className={styles.cardTitle}>Pickster</h2>
                         <p className={styles.cardText}>
-                            An app built with ReactJS & TailwindCSS the uses The
-                            Movie Database's API for generating a random movie
-                            to watch based on a genre selection.
+                            A ReactJS powered web app that suggests a random
+                            movies to watch based on the users genre of choice.
+                            Styled with TailwindCSS, integrated with The Movie
+                            Database - TMDb API to fetch movie data and provide
+                            streaming services that offer the movie to buy, rent
+                            or watch with a subscription. Uses Firease for user
+                            authentication.
                         </p>
                         <img
                             src='src/images/pickster-app.png'
-                            alt=''
+                            alt='The homepage of the app'
                             className={styles.appImg}
                         />
                         <button>
@@ -45,6 +50,34 @@ const Projects = () => {
                             </a>
                         </button>
                     </article>
+
+                    {/* Sorting App */}
+                    <article className={styles.card}>
+                        <h2 className={styles.cardTitle}>
+                            Sorting Algorithm Visualiser
+                        </h2>
+                        <p className={styles.cardText}>
+                            A dynamic web app to visually demonstrate how
+                            various sorting algorithms work. Built using ReactJS
+                            and styled using TailwindCSS.
+                        </p>
+                        <img
+                            src='src/images/sorting-bubble.png'
+                            alt='The homepage of the app'
+                            className={styles.appImg}
+                        />
+                        <button>
+                            <a
+                                href='https://github.com/cachemedei/sorting-visualiser'
+                                className={styles.link}
+                            >
+                                Code
+                                <HiArrowNarrowRight className={styles.arrow} />
+                            </a>
+                        </button>
+                    </article>
+
+                    {/* Weather App */}
                     <article className={styles.card}>
                         <h2 className={styles.cardTitle}>Weather App</h2>
                         <p className={styles.cardText}>
@@ -54,7 +87,7 @@ const Projects = () => {
                         </p>
                         <img
                             src='src/images/weather.png'
-                            alt=''
+                            alt='The homepage of the app'
                             className={styles.appImg}
                         />
                         <button>
